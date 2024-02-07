@@ -166,5 +166,6 @@ async function fetchSearchWeatherInfo(city) {
     }
     catch(err) {
         //hW
+          loadingScreen.classList.remove("active");
     }
 }
